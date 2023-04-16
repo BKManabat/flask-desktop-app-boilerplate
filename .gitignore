@@ -1,0 +1,9 @@
+# Ignore build and dist folders
+build/
+dist/
+
+# Ignore all .db files
+*.db
+
+# Ignore .spec files
+*.spec
