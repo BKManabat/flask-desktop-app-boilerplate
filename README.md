@@ -12,4 +12,4 @@ To use this project, you'll need to install the following libraries:
 
 ## Bundling
 
-Run `pyinstaller app.spec` on terminal.
+Run `pyinstaller app.spec` on terminal. The executable file will be located within the `dist` folder.
