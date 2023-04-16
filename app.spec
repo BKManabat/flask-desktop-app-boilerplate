@@ -6,8 +6,6 @@ from pathlib import Path
 app_dir = os.getcwd()
 templates_dir = os.path.join(app_dir, 'templates')
 static_dir = os.path.join(app_dir, 'static')
-html_file = os.path.join(templates_dir, 'index.html')
-js_file = os.path.join(static_dir, 'script.js')
 
 a = Analysis(['app.py'],
              pathex=[app_dir],
