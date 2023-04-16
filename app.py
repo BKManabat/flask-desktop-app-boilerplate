@@ -31,4 +31,4 @@ def add_data():
 if __name__ == '__main__':
     webview.start(http_server=True, http_port=5000)
 
-# run `pyinstaller myapp.spec` to build
+# run `pyinstaller app.spec` to build
