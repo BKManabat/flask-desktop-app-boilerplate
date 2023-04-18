@@ -29,6 +29,6 @@ def add_data():
     return jsonify({'message': 'Record added successfully!'})
 
 if __name__ == '__main__':
-    webview.start(http_server=True, http_port=5000)
+    webview.start(http_server=True, http_port=3000)
 
 # run `pyinstaller app.spec` to build
